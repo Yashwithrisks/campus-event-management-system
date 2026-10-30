@@ -1,0 +1,84 @@
+
+.fest-page {
+  padding: 24px;
+  color: #1f2937;
+  font-family: Arial, sans-serif;
+}
+
+.fest-page h1 {
+  margin-bottom: 8px;
+}
+
+.fest-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+}
+
+.fest-table {
+  width: 100%;
+  min-width: 1050px;
+  border-collapse: collapse;
+  background: white;
+}
+
+.fest-table th,
+.fest-table td {
+  padding: 13px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  vertical-align: top;
+}
+
+.fest-table th {
+  background: #f3f4f6;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.fest-table td strong {
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.fest-table td div {
+  margin-top: 5px;
+}
+
+.fest-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 150px;
+}
+
+.fest-page button {
+  padding: 9px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #fff;
+}
+
+.fest-page button:hover {
+  background: #f3f4f6;
+}
+
+.fest-page button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.fest-page input {
+  padding: 9px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .fest-page {
+    padding: 12px;
+  }
+}
